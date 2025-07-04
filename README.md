@@ -34,10 +34,10 @@ To play the game the user must be logged in first to access the game. If a user 
 
 ---
 
-## 🖼️ Screenshots
+## 🖼️ Visual Overview of the Game
 
 <div align="center">
-<img src="https://i.imgur.com/AFeiMZq.png" width="80%" alt="Pop 'n' Score gameplay screen"/>
+<img src="https://i.imgur.com/4urfveR.png" width="80%" alt="Pop 'n' Score gameplay screen"/>
 <img src="https://i.imgur.com/3ePjhwM.png" width="80%" alt="Game screen with power-ups"/>
 </div>
 
