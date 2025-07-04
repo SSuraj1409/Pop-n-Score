@@ -17,29 +17,20 @@ The name of my game is called **Pop 'n' Score**. It is an interactive online gam
 
 ---
 
-## 🚀 Game Features
+## 🎮 How to Play
 
-- **Start Game / Restart Game Buttons**  
-  Players can begin the game with a single click. Restarting resets the timer and score, and pressing restart mid-game returns the game to its initial state.
+To play the game the user must be logged in first to access the game. If a user clicks the 'Play Now' button on the home page without being logged in they will be redirected to the login page instead of the game. Once logged in, players can start the game by clicking the 'Start Game' button which initiates a 2-minute timer. During this time colourful circles appear randomly on the screen in various sizes. For Each circle clicked earn points based on its size.
 
-- **Score System**  
-  Each circle awards a different number of points based on its type. A points legend box is displayed for clarity.
+### 🟠 Scoring System:
 
-- **Power-Ups**  
-  Special colored circles provide boosts such as extra time, bonus points, or slowed-down motion.
+- **40px circles** – 15 points  
+- **50px circles** – 10 points  
+- **60px circles** – 5 points
 
-- **Timer-Based Challenge**  
-  Players must score as many points as possible before the timer runs out. Once the timer hits zero, the game ends automatically.
+### ⚡ Power-Ups:
 
-- **Authentication Logic**  
-  The game can be linked to an account system so that only logged-in users can start a game. Unauthenticated users are redirected to the login page.
-
-- **Responsive Buttons**  
-  - The **Restart Game** button only appears during gameplay.  
-  - The **Start Game** button is shown when no game is active.
-
-- **Dynamic Circle Generation**  
-  Circles randomly appear in different sizes, positions, and with varying effects, keeping gameplay engaging.
+- **x2 Score Multiplier** – Doubles the player's current score when clicked.  
+- **Freeze** – Freezes the timer for **5 seconds**, allowing players to continue scoring without time decreasing.
 
 ---
 
