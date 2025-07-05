@@ -31,6 +31,12 @@ To play the game the user must be logged in first to access the game. If a user 
 
 - **x2 Score Multiplier** – Doubles the player's current score when clicked.  
 - **Freeze** – Freezes the timer for **5 seconds**, allowing players to continue scoring without time decreasing.
+- **Time Extension** – Increases the game time by 5 seconds, giving players extra time to accumulate points.
+  
+<div align="center">
+<img src="https://i.imgur.com/6YRjLOq.png" width="80%" alt="Home page after logging in"/>
+</div>
+
 
 ---
 
@@ -55,6 +61,14 @@ After registration, users can log in with their credentials. The system verifies
 
 <br/>
 
+<h3>About page:</h3>  
+
+<div align="center">
+<img src="https://i.imgur.com/RwzzG1O.png" width="80%" alt="Home page after logging in"/>
+</div>
+
+<br/>
+
 <h3>Game page:</h3>  
 
 <div align="center">
@@ -63,49 +77,19 @@ After registration, users can log in with their credentials. The system verifies
 
 <br/>
 
-<h3>Forum Page:</h3>  
-The Forum Page is the core of StudySpace, featuring six distinct subject categories. When a user clicks on a subject, they are redirected to its dedicated chat forum where they can:
-
-- **Post questions or answer other users' questions.**
-
-- **Upload files or images** to provide additional context or explanations for their posts.  
-  A **"Remove File"** button allows users to delete any file mistakenly selected.
-
-- **Use the Search Bar** to filter through discussions.  
-  The search feature dynamically matches the user’s query with existing posts, displaying relevant results.  
-  If no match is found, a message is shown saying **“No discussion found.”**
-
-- **Sort discussions using the Sort Button:**  
-  → When the button says **“Sort by Latest”**, clicking it will arrange posts from newest to oldest.  
-  → When it says **“Sort by Oldest”**, clicking will organize discussions from oldest to newest.
+<h3>Leaderboard Page:</h3>  
+The leaderboard tracks and displays players' highest scores. It only shows this data to users who are logged in, ensuring that only registered players can participate in the ranking system. If a player is not logged in, they will not have access to the information in the leaderboard.
+<br></br>
+When a logged-in player finishes a game, their highest score is recorded and compared against existing scores on the leaderboard. If their score is higher than previous entries, it updates their ranking. Conversely, if a player has a score of zero, they are not added to the leaderboard. The leaderboard showcases only the top 5 players, displaying their usernames and scores.
+<br></br>
+When users click on their username, a dropdown menu appears displaying their highest score and a logout button. Once the game is over, if the user achieves a new highest score, it will also be reflected in the navbar dropdown when clicking on the logged-in username. However, to see the updated highest score in the navbar, users need to reload the page.
 <br></br>
 <div align="center">
-<img src="https://i.imgur.com/lwZTiP8.png" width="80%" alt="Forum page"/>
-<img src="https://i.imgur.com/39h62Io.png" width="80%" alt="Forum Page"/>
-<img src="https://i.imgur.com/T79wIiK.png" width="80%" alt="Forum page"/>
-<img src="https://i.imgur.com/MTTLer7.png" width="80%" alt="Forum page"/>
-<img src="https://i.imgur.com/yoE7XyT.png" width="80%" alt="Question input box in forum page"/>
+<img src="https://i.imgur.com/ucmsW1p.png" width="80%" alt="Forum page"/>
 </div>
 
 <br/>
 
-
----
-
-## 🔐 Login Requirement (Optional)
-
-When integrated into a larger platform:
-- Only logged-in users can play the game.
-- Leaderboard data is restricted to authenticated users.
-- Game progress and high scores can be tracked per user.
-
----
-
-## 🗂️ File Structure
-
-- `index.html` – Game structure  
-- `style.css` – Game styling and layout  
-- `game.js` – Game logic, timer, and interactions
 
 ---
 
